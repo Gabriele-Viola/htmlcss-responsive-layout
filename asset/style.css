@@ -232,7 +232,9 @@ i {
     .d-inline-block {
         display: inline-block;
     }
-
+    .my-2-md{
+        margin: 1rem 0;
+    }
     .f-left-md {
         float: left;
         ;
@@ -288,6 +290,7 @@ i {
 
                 .img-dessert {
                     width: 50%;
+                    margin: 1rem 1rem 1rem 0;
                     margin-bottom: -.5rem;
                 }
 
@@ -303,13 +306,11 @@ i {
 #app_footer {
     background-color: var(--gz-footer);
     .top-left{
-        div:first-child {
             font-weight: bold;
             color: var(--gz-white);
             text-align: center;
             font-size: .75rem;
             padding: .5rem 0;
-        }
     }
     .bottom-right{
         display: flex;
@@ -334,6 +335,7 @@ i {
         width: 80%;
         margin: auto;
     }
+
 
     .conteiner-lg-img {
         width: calc(100% /12 *9)
