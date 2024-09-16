@@ -66,6 +66,9 @@ img{
     .col-md-4{
         width: calc((100% / 12) * 4);
     }
+    .col-md-6{
+        width: 50%;
+    }
 }
 @media screen and (min-width: 1024px){
     .d-flex{
