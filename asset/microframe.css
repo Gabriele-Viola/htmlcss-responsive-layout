@@ -10,6 +10,10 @@
 img{
     max-width: 100%;
 }
+.conteiner{
+    width: 90%;
+    margin: auto;
+}
 .row{
     display: flex;
     flex-wrap: wrap;
