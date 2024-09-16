@@ -77,6 +77,7 @@ i {
 
 #app_main {
     .category {
+        margin-left: -2rem;
         font-size: .75rem;
         color: grey;
         padding-top: .5rem;
@@ -151,9 +152,9 @@ i {
 }
 
 .social {
+    padding: 1rem 0;
     .conteiner {
         justify-content: space-around;
-        padding: 1rem 0;
     }
 
     .btn {
@@ -218,6 +219,15 @@ i {
             }
         }
     }
+    .social{
+        padding: 2rem 0;
+        .btn-md{
+            margin: 0 .5rem;
+            width: 20%;
+            height: 2rem;
+            border-radius: 200px;
+        }
+    }
 }
 
 
@@ -257,9 +267,15 @@ i {
 
             }
         }
-
-
-
+        .social{
+            a{
+                text-decoration: none;
+                font-weight: bold;
+            }
+            .btn-lg{
+                display: inline-block;
+            }
+        }
     }
 
 }
