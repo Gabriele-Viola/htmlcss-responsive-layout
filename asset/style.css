@@ -1,0 +1,23 @@
+:root{
+    --gz-title:#ff9614;
+    --gz-footer: #7c69a4;
+    --gz-main-bg: #f6f5f3;
+    --gz-white:#ffffff;
+    --gz-black: #050714;
+    --gz-fb:#1c79f3 ;
+    --gz-tw:#019eff;
+    --gz-red-logo:#e62222;
+}
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--gz-main-bg);
+}
+#app_header{
+    background-color: var(--gz-white);
+    h1{
+    font-family: "Nerko One", cursive;
+    color: var(--gz-title);
+    }
+}
