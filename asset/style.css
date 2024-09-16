@@ -21,8 +21,13 @@ body {
     font-family: "Montserrat", sans-serif;
     background-color: var(--gz-main-bg);
 }
-.px-2{
+
+.px-2 {
     padding: 0 1rem;
+}
+
+.d-flex {
+    display: flex;
 }
 
 i {
@@ -54,18 +59,22 @@ i {
     box-shadow: 0px 0px 5px 2px grey;
 
 }
-.card-bg{
+
+.card-bg {
     background-color: var(--gz-white);
     box-shadow: 5px 5px 10px 0px #888888;
 }
+
 .card {
 
     display: flex;
     flex-wrap: wrap;
 }
-.conteiner-img{
+
+.conteiner-img {
     width: 100%;
 }
+
 #app_main {
     .category {
         font-size: .75rem;
@@ -141,6 +150,54 @@ i {
     }
 }
 
+.social {
+    .conteiner {
+        justify-content: space-around;
+        padding: 1rem 0;
+    }
+
+    .btn {
+        width: 40px;
+        aspect-ratio: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gz-white);
+        border-radius: 100%;
+        box-shadow: 5px 5px 10px 0px #888888;
+
+        .fb {
+            i {
+                color: var(--gz-fb);
+            }
+        }
+
+        .tweet {
+            i {
+                color: var(--gz-tw);
+            }
+        }
+
+        .insta {
+            i {
+                color: pink;
+            }
+        }
+
+        .pint {
+            i {
+                color: var(--gz-red-logo);
+            }
+        }
+
+        .yt {
+            i {
+                color: var(--gz-red-logo);
+            }
+        }
+    }
+}
+
 @media screen and (min-width: 768px) {
     .d-inline-block {
         display: inline-block;
@@ -170,7 +227,8 @@ i {
         width: 80%;
         margin: auto;
     }
-    .conteiner-lg-img{
+
+    .conteiner-lg-img {
         width: calc(100% /12 *9)
     }
 
