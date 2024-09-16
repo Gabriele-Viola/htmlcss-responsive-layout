@@ -149,25 +149,29 @@ i {
             }
         }
     }
-    .presentation{
-        .conteiner{
-            .story{
+
+    .presentation {
+        .conteiner {
+            .story {
                 font-weight: bold;
                 font-size: 1.5rem;
                 padding: .5rem 0;
             }
-            hr{
+
+            hr {
                 border: none;
                 border-bottom: 2px solid var(--gz-title);
                 width: 20%;
                 margin-bottom: 1rem;
             }
-            .img-dessert{
+
+            .img-dessert {
                 width: 70%;
                 margin: auto;
                 margin-bottom: 1rem;
             }
-            p{
+
+            p {
                 line-height: 1.75rem;
                 font-size: 1rem;
             }
@@ -177,6 +181,7 @@ i {
 
 .social {
     padding: 1rem 0;
+
     .conteiner {
         justify-content: space-around;
     }
@@ -227,10 +232,13 @@ i {
     .d-inline-block {
         display: inline-block;
     }
-    .f-left-md{
-        float: left;;
+
+    .f-left-md {
+        float: left;
+        ;
     }
-    .d-inline-block-md{
+
+    .d-inline-block-md {
         display: block;
     }
 
@@ -249,40 +257,57 @@ i {
             }
         }
     }
-    .social{
+
+    .social {
         padding: 2rem 0;
-        .btn-md{
+
+        .btn-md {
             margin: 0 .5rem;
             width: 20%;
             height: 2rem;
             border-radius: 200px;
         }
     }
-    #app_main{
 
-        .presentation{
-            .conteiner{
-                .story{
+    #app_main {
+
+        .presentation {
+            .conteiner {
+                .story {
                     font-weight: bold;
                     font-size: 1.5rem;
                     padding: .5rem 0;
                 }
-                hr{
+
+                hr {
                     border: none;
                     border-bottom: 2px solid var(--gz-title);
                     width: 20%;
                     margin-bottom: 1rem;
                 }
-                .img-dessert{
+
+                .img-dessert {
                     width: 50%;
                     margin-bottom: -.5rem;
                 }
-                p{
+
+                p {
                     line-height: 1.75rem;
                     font-size: 1rem;
                 }
             }
         }
+    }
+}
+
+#app_footer {
+    background-color: var(--gz-footer);
+    div:first-child {
+        font-weight: bold;
+        color: var(--gz-white);
+        text-align: center;
+        font-size: .75rem;
+        padding: .5rem 0;
     }
 }
 
@@ -323,12 +348,14 @@ i {
 
             }
         }
-        .social{
-            a{
+
+        .social {
+            a {
                 text-decoration: none;
                 font-weight: bold;
             }
-            .btn-lg{
+
+            .btn-lg {
                 display: inline-block;
             }
         }
