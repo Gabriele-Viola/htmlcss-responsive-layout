@@ -302,12 +302,28 @@ i {
 
 #app_footer {
     background-color: var(--gz-footer);
-    div:first-child {
-        font-weight: bold;
-        color: var(--gz-white);
-        text-align: center;
-        font-size: .75rem;
-        padding: .5rem 0;
+    .top-left{
+        div:first-child {
+            font-weight: bold;
+            color: var(--gz-white);
+            text-align: center;
+            font-size: .75rem;
+            padding: .5rem 0;
+        }
+    }
+    .bottom-right{
+        display: flex;
+        flex-wrap: wrap;
+        .row{
+            justify-content: space-around;
+        }
+    }
+    .col-link{
+        width: 25%;
+        a{
+            color: var(--gz-white);
+        }
+
     }
 }
 
